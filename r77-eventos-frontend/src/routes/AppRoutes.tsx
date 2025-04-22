@@ -14,7 +14,7 @@ export default function AppRoutes() {
           <Route path="/" element={<Home />} />
           <Route path="/sobre" element={<About />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/cadastro" element={<Register />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
       </Suspense>
     </Router>
